@@ -1,0 +1,45 @@
+programa {
+  funcao inicio() {
+    inteiro primeiroNumero, segundoNumero
+    real resultado
+    cadeia operacao
+
+    escreva("Qual a operação: ")
+    leia(operacao)
+
+    escreva("Digite o primeiro número: ")
+    leia(primeiroNumero)
+
+    escreva("Digite o segundo numero: ")
+    leia(segundoNumero)
+
+    escolha (operacao) {
+    caso "+":
+    resultado = primeiroNumero + segundoNumero
+    escreva("O resultado é: ", resultado)
+    pare
+
+    caso "*":
+    resultado = primeiroNumero * segundoNumero
+    escreva("O resultado é: ", resultado)
+    pare
+
+    caso "-":
+   resultado = primeiroNumero - segundoNumero
+    escreva("O resultado é: ", resultado)
+    pare
+
+    caso "/":
+    resultado = primeiroNumero / segundoNumero
+    escreva("O resultado é :", resultado)
+    pare
+
+
+
+    }
+
+
+
+    
+  }
+}
